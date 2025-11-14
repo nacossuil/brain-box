@@ -1,0 +1,12 @@
+/* Simple Global Reset */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+/* Issue #16: Basic Global CSS Reset - Partially addressed here */
+* {
+  box-sizing: border-box;
+}
