@@ -1,16 +1,10 @@
-# React + Vite
+NACOSS BrainBox 🧠<div align="center">The Official Trivia Application for the National Association of Computer Science Students, University of Ilorin.Report Bug · Request Feature</div>📖 About The ProjectBrainBox is a collaborative open-source web application designed to test the wits of Unilorin CS students. We are building a modern trivia platform where students can challenge themselves, learn new facts, and compete for the top spot on the leaderboard.This project is maintained by the NACOSS Software Directorate (Nova Administration).🏆 The Golden Pull Request AwardAre you ready to code your way to victory?We are running a development competition to incentivize contributions. The contributor with the highest number of merged Pull Requests wins the Grand Prize!📜 Competition RulesRuleDescription🗓️ TimelineNov 15, 2025 to Nov 30, 2025 (11:59 PM WAT).🎓 EligibilityOpen to all currently enrolled Unilorin CS Students (100L - 400L).✅ ValidityPRs must fix an assigned Issue, pass code review, and be merged. Trivial fixes (e.g., single typos) may be disqualified.🥇 The PrizeThe Grand Prize will be announced at the end of the competition.🛠️ Tech StackWe use modern web technologies to build BrainBox:Frontend: React.js (Functional Components, Hooks)Language: JavaScript (ES6+)Styling: CSS3Package Manager: NPM🚀 Getting StartedFollow these steps to get a local copy up and running.PrerequisitesNode.js (Latest LTS version recommended)GitInstallationFork the ProjectClick the generic "Fork" button at the top right of this page.Clone your ForkBashgit clone https://github.com/YOUR-USERNAME/brain-box.git
+cd brain-box
+Install DependenciesBashnpm install
+Start the AppBashnpm start
+The app should now be running on http://localhost:3000.🤝 How to ContributeWe love contributions! Please follow this workflow to ensure your PR counts toward the Golden Pull Request Award.1. Claim an Issue 🙋‍♂️Go to the Issues Tab.Look for tags like good first issue or help wanted.Crucial: Comment "I'll take this" on the issue so we can assign it to you.2. Create a Branch 🌿Always create a new branch for your work.Bash# Use a descriptive name (kebab-case)
+git checkout -b feat/your-feature-name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# or
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+git checkout -b fix/issue-number-description 3. Code & Commit 💻Write clean, readable ES6+ code.Commit with a clear message referencing the issue number.Bashgit commit -m "feat: implemented score counter (closes #4)" 4. Push & PR 🔀Push to your fork: git push origin feat/your-feature-nameOpen a Pull Request on GitHub.In the description, explain your changes and confirm you tested them.⚖️ LicenseDistributed under the MIT License. See LICENSE for more information.📞 ContactDynasty (Emmanuel Mojiboye)Software Director, Nova AdministrationNational Association of Computer Science Students, University of Ilorin<div align="center"><p>Built with ❤️ by the NACOSS Software Team</p></div>
