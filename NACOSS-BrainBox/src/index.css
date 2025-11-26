@@ -75,11 +75,13 @@ main{
 button{
   background-color: rgb(57, 57, 252);
   color: white;
-  padding: 10px 15px;
+  padding: 10px 25px;
   margin: auto;
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
 }
 .progress-bar{
   width: 100%;
