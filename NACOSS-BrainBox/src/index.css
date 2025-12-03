@@ -4,9 +4,12 @@ body {
   font-family: sans-serif;
   background-color: #f4f4f9;
   color: #333;
+  font-family: sans-serif;
 }
 
 /* Issue #16: Basic Global CSS Reset - Partially addressed here */
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
