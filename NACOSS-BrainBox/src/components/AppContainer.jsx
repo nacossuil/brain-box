@@ -1,4 +1,5 @@
 import React from 'react'
+import { ScoreBoard } from './ScoreBoard';
 
 const AppContainer = () => {
   return (
@@ -8,27 +9,7 @@ const AppContainer = () => {
         <p>Ready to test your knowledge? Let's begin</p>
         </div>
         <div className='metrics'>
-            <div>
-                <div>
-                  <img src="" alt="" />
-                  <span>Time</span>
-                </div>
-                <p>00:00</p>
-            </div>
-            <div>
-              <div>
-                  <img src="" alt="" />
-                  <span>Score</span>
-                </div>
-                <p>0</p>
-            </div>
-            <div>
-              <div>
-                  <img src="" alt="" />
-                  <span>Progress</span>
-                </div>
-                <p>0/10</p>
-            </div>
+          <ScoreBoard />
         </div>
         <div className='progress-bar'>
 
