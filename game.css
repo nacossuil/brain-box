@@ -1,0 +1,35 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color:white;
+}
+body{
+    width:fit-content;
+    
+    color:black;
+}
+section{
+  border-radius: 12px;
+  border: none;
+  width:60vh;
+}
+.list, .inactive{
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ text-decoration-style: none;
+ background-color: hsl(210,9%,96.5%);
+ margin: 5px;
+ list-style-type: none;
+ border: 2px grey
+} 
+.list:hover{
+    background-color:rgb(117, 223, 255);
+      cursor: pointer;
+      border: 2px solid rgb(5, 193, 251);
+}
+.active{
+    background-color:rgb(117, 223, 255);
+      cursor: pointer;
+      border: 2px solid rgb(5, 193, 251);
+}
+
