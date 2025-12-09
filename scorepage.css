@@ -1,0 +1,14 @@
+*,*::after,*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@media screen and (max-width:768px) {
+    .round{
+        border-radius: 50rem;
+    }
+    .btn-primary{
+      background-color: green;
+    }
+    
+} 
